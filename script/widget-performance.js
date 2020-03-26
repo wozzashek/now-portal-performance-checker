@@ -1,5 +1,5 @@
-//widget performance script herevar 
-tuWidgetPerformance = (() => {
+//widget performance script here
+var tuWidgetPerformance = (() => {
     
     var runBtn = $('<button style="position:fixed;bottom:1rem;right:1.5rem;" class="btn btn-lg btn-danger">RUN PAGE PERFORMANCE</button>').click(function() {
         $('.display_results_box').remove();
